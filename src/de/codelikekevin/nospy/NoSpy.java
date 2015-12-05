@@ -63,7 +63,7 @@ public class NoSpy extends JavaPlugin {
 			if (!(new File("plugins", "ProtocolLib.jar").exists())) {
 				File dataFolder = new File("plugins/");
 				File dataFile = new File(dataFolder.getPath() + File.separator + "ProtocolLib.jar");
-				URL url = new URL("http://5.1.89.155/Plugins/ProtocolLib.jar");
+				URL url = new URL("https://www.spigotmc.org/resources/protocollib.1997/download?version=33748");
 				url.openConnection();
 				InputStream reader = url.openStream();
 				FileOutputStream writer = new FileOutputStream(dataFile);
